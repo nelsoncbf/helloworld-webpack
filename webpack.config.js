@@ -1,7 +1,8 @@
 const path = require('path')
 
 module.exports = {
-    mode: 'development',
+    //mode: 'development',
+    mode: 'production',
     entry: {
         main: './src/index.js',
         segundo: './src/js/segundo.js'
@@ -13,8 +14,8 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader']
+                test: /\.s?[ac]ss$/,
+                use: ['style-loader', 'css-loader', 'sass-loader']
             },
             {
                 test: /\.(jpg|gif|png|svg)$/,
