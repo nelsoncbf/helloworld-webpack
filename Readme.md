@@ -1,5 +1,8 @@
 **Hello World for Webpack**
 
+- Requirements:
+- - Node
+
 - Created alias webpack for compile project:
 
 `alias webpack=./node_modules/webpack/bin/webpack.js`
