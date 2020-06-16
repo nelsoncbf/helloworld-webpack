@@ -1,4 +1,4 @@
-** Hello World for Webpack **
+**Hello World for Webpack**
 
 - Created alias webpack for compile project
 alias webpack=./node_modules/webpack/bin/webpack.js
