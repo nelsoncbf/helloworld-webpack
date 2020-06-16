@@ -1,0 +1,10 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lemonchiffon
+}
+
+.logo {
+    background-image: url('../img/package.png');
+    height: 284px;
+    width: 284px;
+}
